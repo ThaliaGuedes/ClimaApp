@@ -10,12 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
+    <script src="scripts.js"></script>
     <title>Previsao do Tempo</title>
   </head>
   <body>
     <div class="box-big">
       <input placeholder="Digite o nome da cidade!" class="input-city" />
-      <button class="button-search">
+      <button class="button-search" onclick="clickButton()">
         <img
           class="img-search"
           src="https://www.svgrepo.com/show/488200/find.svg"
@@ -24,7 +25,7 @@
       </button>
 
       <div class="box-average">
-            <h2 class="city">Tempo em Sao Paulo</h2>
+            <h2 class="city-text">Tempo em Sao Paulo</h2>
             <p class="temp">21°C</p>
 
             <div class="box-smaller">
